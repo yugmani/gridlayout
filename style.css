@@ -1,0 +1,33 @@
+body {
+    margin:0;
+    padding:0;
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+#header {
+    text-align:center;
+    margin:10px;
+    padding:10px
+}
+
+.container {
+    /* width:100%; */
+    background-color: whitesmoke;
+    display:grid;
+    grid-template-columns:30% auto 20%;
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    /* grid-gap:10px; */
+   
+}
+
+.container >div {
+    background-color:#eee;
+    padding:10px;
+}
+
+.container >div:nth-child(odd) {
+    background-color:#ddd;
+}
